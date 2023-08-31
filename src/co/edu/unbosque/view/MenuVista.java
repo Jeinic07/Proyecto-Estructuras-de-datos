@@ -27,32 +27,35 @@ public class MenuVista extends JFrame {
 
 		fondoInicio = new JLabel();
 		fondoInicio.setBounds(0, 0, 1005, 646);
-		fondoInicio.setIcon(new ImageIcon("src/Imagenes/FondoEntrada.png"));
+		fondoInicio.setIcon(new ImageIcon("src/Imagenes/FondoEntrada.jpg"));
 
 		playMusica(0);
 
-		btnIngresarCarro = new JButton("");
+		btnIngresarCarro = new JButton("Ingresar vehiculo");
 		btnIngresarCarro.setBounds(170, 135, 200, 50);
 		btnIngresarCarro.setOpaque(false);
 		btnIngresarCarro.setBorderPainted(false);
 		btnIngresarCarro.setBackground(Color.red);
-		btnIngresarCarro.setForeground(Color.WHITE);
+		btnIngresarCarro.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+		btnIngresarCarro.setForeground(Color.black);
 		btnIngresarCarro.setIcon(null);
 
-		btnBorrarCarro = new JButton("");
+		btnBorrarCarro = new JButton("Mostrar Vehiculos");
 		btnBorrarCarro.setBounds(405, 135, 200, 50);
 		btnBorrarCarro.setOpaque(false);
 		btnBorrarCarro.setBorderPainted(false);
 		btnBorrarCarro.setBackground(Color.red);
-		btnBorrarCarro.setForeground(Color.orange);
+		btnBorrarCarro.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+		btnBorrarCarro.setForeground(Color.black);
 		btnBorrarCarro.setIcon(null);
 
-		btnActualizarCarro = new JButton("");
+		btnActualizarCarro = new JButton("Eliminar vehiculo");
 		btnActualizarCarro.setBounds(640, 135, 200, 50);
 		btnActualizarCarro.setOpaque(false);
 		btnActualizarCarro.setBorderPainted(false);
+		btnActualizarCarro.setFont(new Font("Times New Roman", Font.PLAIN, 18));
 		btnActualizarCarro.setBackground(Color.red);
-		btnActualizarCarro.setForeground(Color.WHITE);
+		btnActualizarCarro.setForeground(Color.black);
 		btnActualizarCarro.setIcon(null);
 
 		add(btnActualizarCarro);
